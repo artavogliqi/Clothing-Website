@@ -203,3 +203,29 @@ body {
     color: green;
     cursor: pointer;
 }
+
+/*==============================================FOOTER===========================================*/
+.footer {
+            background-color: gray;
+        }
+        .footer .quote, .footer div {
+            display: inline;
+        }
+        .footer ul {
+            display: inline-block;
+            list-style-type: none;
+            margin-left: 12%;
+        }
+        .footer ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        .footer ul li a: hover {
+            color: white;
+        }
+        .footer div {
+            margin-left: 15%;
+        }
+        .footer .copy {
+            margin-left: 45%;
+        }
