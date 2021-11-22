@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 // ================================= FOOTER =================================
 const footer = `
-  <p class="quote">Quote</p>
+  <p class="quote">"The funny thing about shopping online is that it does <br>give you a sense of fulfillment when your order arrives"</p>
   <div>
     <ul>
       <li><h3>SHOP</h3></li>
@@ -32,14 +32,14 @@ const footer = `
     </ul>
     <ul>
       <li><h3>COMPANY</h3></li>
-      <li><a href="">Login</a></li>
-      <li><a href="">Register</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="signup.html">Register</a></li>
       <li><a href="">Wishlist</a></li>
     </ul>
     <ul>
       <li><h3>ADDRESS</h3></li>
       <li>Ferizaj, Kosovo</li>
-      <li>04* *** ***</li>
+      <li>044 123 123</li>
       <li>mail@gmail.com</li>
     </ul>
   </div>
