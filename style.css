@@ -208,12 +208,12 @@ body {
 
 
 .sign-up{
-width: 350px;
-box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-background: #fff;
-padding: 20px;
-margin: 8% auto 0; 
-text-align: center;
+    width: 350px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0; 
+    text-align: center;
 
 
 }
@@ -283,12 +283,13 @@ text-align: center;
  /*==============================================FOOTER===========================================*/
 .footer {
     background-color: #B9B9B9;
-    height: 180px;
+    height: 190px;
+    padding-top: 20px;
 }
 .footer .quote, .footer div {
     display: inline-flex;
     color: black;
-    font-size: 15 px;
+    font-size: 15px;
     margin-left: 15px;
 }
 .footer ul {
