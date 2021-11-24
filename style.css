@@ -278,3 +278,42 @@ text-align: center;
 
     background-image: url(signupimg0.jpg);
  }
+
+
+ /*==============================================FOOTER===========================================*/
+.footer {
+    background-color: #B9B9B9;
+    height: 180px;
+}
+.footer .quote, .footer div {
+    display: inline-flex;
+    color: black;
+    font-size: 15 px;
+    margin-left: 15px;
+}
+.footer ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 15%;
+    font-size: 15px;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+.footer ul li{
+    color: black;
+    width: 150px;
+}
+.footer ul li a hover {
+    color: white;
+}
+.footer div {
+    margin-left: 15%;
+}
+.footer .copy {
+    margin-top: 15px;
+    margin-left: 45%;
+    color: black;
+    font-size: 18px;
+} 
