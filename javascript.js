@@ -34,7 +34,7 @@ const footer = `
       <li><h3>COMPANY</h3></li>
       <li><a href="login.html">Login</a></li>
       <li><a href="signup.html">Register</a></li>
-      <li><a href="">Wishlist</a></li>
+      <li><a href="help.html">Help</a></li>
     </ul>
     <ul>
       <li><h3>ADDRESS</h3></li>
