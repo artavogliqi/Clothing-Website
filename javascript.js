@@ -26,7 +26,7 @@ const footer = `
   <div>
     <ul>
       <li><h3>SHOP</h3></li>
-      <li><a href="">For Men</a></li>
+      <li><a href="men.html">For Men</a></li>
       <li><a href="">For Women</a></li>
       <li><a href="">For Kids</a></li>
     </ul>
