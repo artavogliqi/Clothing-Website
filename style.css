@@ -377,6 +377,62 @@ body {
 	color:#9e9e9e;
 }
 
+/*===============================MEN'S WEAR============================*/
+
+.men-content{
+    padding: 2cm;
+
+}
+
+.produkti{
+
+    width: 5cm;
+    height: 7cm;
+    padding: 3px;
+    padding-top: 2.5cm;
+    
+    
+    
+
+}
+  
+.produkti-text-img{
+    width: 5cm;
+    float: left;
+    text-align: center;
+    width: 25%;
+    
+        
+} 
+
+.buy-btn{
+    background-color:#21afde;
+    
+    width: 3cm;
+    
+}
+
+.buy-btn:hover{
+    background-color: blue;
+}
+.s-mens-price{
+
+    font-size: large;
+    
+}
+
+#menprotxt{
+    font-size: large;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 270px; 
+    height: 1.2em; 
+    white-space: nowrap;
+  
+}
+
+
+
  /*==============================================HELP===========================================*/
  
  .main 
