@@ -32,17 +32,18 @@ body {
     font-size: 18px;
 }
 .nav ul li i {
-    padding-right: 5px;
+    padding-right: 6px;
 }
 .nav ul li input[type=text] {
     border-radius: 5px;
     border: none;
     height: 30px;
-    width: 250px;
+    width: 125px;
     outline: none;
     padding-left: 5px;
     background-color: transparent;
     border-bottom: 2px solid black;
+    position: absolute;
 }
 .nav {
     float: right;
@@ -54,7 +55,7 @@ body {
 }
 .nav ul li a:hover, .fa-search:hover{
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .nav ul li p {
     display: none;
