@@ -10,7 +10,6 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <script src="javascript.js"></script>
     
 </head>
 
@@ -22,20 +21,24 @@
         <h1> Sign Up Now</h1>
         
         <form>
-            <Input type="email" class="input-box" placeholder="Your email">
-            <input type="password" class="input-box" placeholder="Your Password">
-            <p> <span> <input type="checkbox"> </span> I agree to the terms of services</p>
-            <button type="button" class="signup-btn" >Sign Up</button> <br>
+            <input type="name" id="name" class="input-box" placeholder="Name"><label id="nameMsg" style="color: red;" for="name"></label><br>
+            <input type="surname" id="surname" class="input-box" placeholder="Surname"><label id="surnameMsg" style="color: red;" for="surname"></label><br>
+            <input type="email" id="email" class="input-box" placeholder="Email"><label id="emailMsg" style="color: red;" for="email"></label><br>
+            <input type="password" id="password" class="input-box" placeholder="Password"><label id="passwordMsg" style="color: red;" for="password"></label><br>
+            <p> <span> <input type="checkbox" id="terms"> </span> I agree to the terms of services</p>
+            <button type="button" id="registerBtn" class="signup-btn">Sign Up</button> <br>
             <hr>
             <br>
 
             <p class="or">OR</p>
             <button type="button" class="facebook-btn">Login With Facebook</button>
-            <p>Already have an account ?<a href="login.html"> Log In</p>
+            <p>Already have an account ?<a href="login.html"> Log In</a></p> 
 
         </form>
     </div>
     <div class="footer" id="footer" role="footer">
-        </div>
+    </div>
+        <!-- js -->
+         <script src="javascript.js"></script>
 </body>
 </html>

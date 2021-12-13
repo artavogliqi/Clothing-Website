@@ -20,6 +20,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
 
+
+
 // ================================= FOOTER =================================
 const footer = `
   <p class="quote">"The funny thing about shopping online is that it does <br>give you a sense of fulfillment when your order arrives"</p>
@@ -67,3 +69,75 @@ function nonScrollHeader() {
 window.onscroll = function() {
     nonScrollHeader();
 }
+
+
+//=================================SIGN UP VALIDATION===============================
+var registerBtn = document.getElementById("registerBtn");
+registerBtn.addEventListener("click", function(event){
+  var name = document.getElementById("name").value;
+  var surname = document.getElementById("surname").value;
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
+
+// var button = document.getElementById("button");
+var nameMsg = document.getElementById("nameMsg")
+var surnameMsg = document.getElementById("surnameMsg")
+var emailMsg = document.getElementById("emailMsg")
+var passwordMsg = document.getElementById("passwordMsg")
+
+
+var nameRegex = /^[A-Z][a-z]{2,11}/;
+var nameRegex = /^[A-Z][a-z]{2,11}/;
+var emailRegex = /^[A-Za-z]+\d+[._-]?\w+@[A-Za-z]+[-]?[A-Za-z]+\.[A-Za-z]{2,3}/;
+var passwordRegex = /^[A-Za-z]+\d+/;
+
+
+  if (name== "") {
+    nameMsg.innerText="*Fill the name field!";
+    event.preventDefault();
+  }
+  else{
+    if(nameRegex.test(name)){
+    }
+    else {
+      nameMsg.innerText = "First letter uppercase and 2-11 characters!";
+      event.preventDefault();
+    }
+  }
+  if (surname== "") {
+    surnameMsg.innerText="*Fill the surname field!";
+    event.preventDefault();
+  }
+  else{
+    if(surnameRegex.test(surname)){
+    }
+    else {
+      surnameMsg.innerText = "First letter uppercase and 2-11 characters!";
+      event.preventDefault();
+    }
+  }
+  if (email== "") {
+    emailMsg.innerText="*Fill the email field!";
+    event.preventDefault();
+  }
+  else{
+    if(emailRegex.test(email)){
+    }
+    else {
+      emailMsg.innerText = "First letter uppercase and 2-11 characters!";
+      event.preventDefault();
+    }
+  }
+  if (password== "") {
+    passwordMsg.innerText="*Fill the password field!";
+    event.preventDefault();
+  }
+  else{
+    if(passwordRegex.test(password)){
+    }
+    else {
+      passwordMsg.innerText = "Password must contain letters and numbers!";
+      event.preventDefault();
+    }
+  }
+});

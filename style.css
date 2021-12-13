@@ -231,7 +231,7 @@ body {
     width: 93%;
     border: 1px solid #999;
     outline: none;
-    padding: right 10px;;
+    padding: right 10px;
 }
  button {
      color: #fff;
@@ -281,7 +281,6 @@ body {
     background-image: url(signupimg0.jpg);
  }
 
-
  /*==============================================FOOTER===========================================*/
 .footer {
     background-color: #B9B9B9;
@@ -308,7 +307,7 @@ body {
     color: black;
     width: 150px;
 }
-.footer ul li a hover {
+.footer ul li a:hover {
     color: white;
 }
 .footer div {
@@ -386,24 +385,17 @@ body {
 }
 
 .produkti{
-
     width: 5cm;
     height: 7cm;
     padding: 3px;
     padding-top: 2.5cm;
-    
-    
-    
-
 }
   
 .produkti-text-img{
     width: 5cm;
     float: left;
     text-align: center;
-    width: 25%;
-    
-        
+    width: 25%; 
 } 
 
 .buy-btn{
@@ -435,11 +427,11 @@ body {
 
 
  /*==============================================HELP===========================================*/
- 
  .main 
  {
     padding-top: 70px; 
     text-align: center;
+    background-color:#faebd7;
  }
 
  .help
