@@ -76,20 +76,23 @@ var registerBtn = document.getElementById("registerBtn");
 registerBtn.addEventListener("click", function(event){
   var name = document.getElementById("name").value;
   var surname = document.getElementById("surname").value;
+  var username = document.getElementById("username").value;
   var email = document.getElementById("email").value;
   var password = document.getElementById("password").value;
 
 // var button = document.getElementById("button");
 var nameMsg = document.getElementById("nameMsg")
 var surnameMsg = document.getElementById("surnameMsg")
+var usernameMsg = document.getElementById("usernameMsg")
 var emailMsg = document.getElementById("emailMsg")
 var passwordMsg = document.getElementById("passwordMsg")
 
 
 var nameRegex = /^[A-Z][a-z]{2,11}/;
 var nameRegex = /^[A-Z][a-z]{2,11}/;
+var usernameRegex = /^[a-z]+\d?/;
 var emailRegex = /^[A-Za-z]+\d+[._-]?\w+@[A-Za-z]+[-]?[A-Za-z]+\.[A-Za-z]{2,3}/;
-var passwordRegex = /^[A-Za-z]+\d+/;
+var passwordRegex = /^[A-Za-z]+\d{8}/;
 
 
   if (name== "") {
@@ -116,6 +119,18 @@ var passwordRegex = /^[A-Za-z]+\d+/;
       event.preventDefault();
     }
   }
+  if (username== "") {
+    usernameMsg.innerText="*Fill the username field!";
+    event.preventDefault();
+  }
+  else{
+    if(usernameRegex.test(username)){
+    }
+    else {
+      usernameMsg.innerText = "You should use lowercase letter!";
+      event.preventDefault();
+    }
+  }
   if (email== "") {
     emailMsg.innerText="*Fill the email field!";
     event.preventDefault();
@@ -136,7 +151,7 @@ var passwordRegex = /^[A-Za-z]+\d+/;
     if(passwordRegex.test(password)){
     }
     else {
-      passwordMsg.innerText = "Password must contain letters and numbers!";
+      passwordMsg.innerText = "*Password must contain 8 characters!";
       event.preventDefault();
     }
   }
