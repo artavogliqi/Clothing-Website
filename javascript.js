@@ -1,7 +1,7 @@
 // ================================= HEADER =================================
 const head = `
     <div class="logo">
-        <p>MY<b>SITE</b></p>
+        <p>Dandelion</p>
     </div>
     <div class="nav">
         <ul>
@@ -41,8 +41,8 @@ const footer = `
     <ul>
       <li><h3>ADDRESS</h3></li>
       <li>Ferizaj, Kosovo</li>
-      <li>044 123 123</li>
-      <li>mail@gmail.com</li>
+      <li><a href="tel:+38344123123">044 123 123</a></li>
+      <li><a href="mailto:email@example.com">email@example.com</a></li>
     </ul>
   </div>
   <br>

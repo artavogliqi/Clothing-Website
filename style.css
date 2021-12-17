@@ -20,7 +20,8 @@ body {
     z-index: 1;
 }
 .header .logo p {
-    font-size: 45px;
+    font-size: 50px;
+    font-family: Blackadder ITC;
 }
 .header .logo {
     display: inline-block;
