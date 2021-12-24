@@ -46,7 +46,7 @@ const footer = `
     </ul>
   </div>
   <br>
-  <p class="copy"><b>MYSITE</b> &copy; 2021</p>
+  <p class="copy"><b>Dandelion</b> &copy; 2021</p>
 `;
 window.addEventListener('DOMContentLoaded', () => {
   let footerf = document.querySelector('div[role="footer"]');

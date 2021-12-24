@@ -287,6 +287,10 @@ body {
     background-color: #B9B9B9;
     height: 190px;
     padding-top: 20px;
+    clear: both;
+    position: relative;
+    
+    
 }
 .footer .quote, .footer div {
     display: inline-flex;
@@ -382,6 +386,7 @@ body {
 
 .men-content{
     padding: 2cm;
+    
 
 }
 
