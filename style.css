@@ -289,6 +289,7 @@ body {
     padding-top: 20px;
     clear: both;
     position: relative;
+    height: auto;
     
     
 }
@@ -296,12 +297,12 @@ body {
     display: inline-flex;
     color: black;
     font-size: 15px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .footer ul {
     display: inline-block;
     list-style-type: none;
-    margin-left: 15%;
+    margin-left: 8%;
     font-size: 15px;
 }
 .footer ul li a {
@@ -319,12 +320,52 @@ body {
     margin-left: 15%;
 }
 .footer .copy {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 45%;
     color: black;
     font-size: 18px;
 } 
+.footer .feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:50;
+  font-size: 12px;
+  border-radius: 5px;
+  line-height: 8px;
+  background-color: transparent;
+  border:2px solid black;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
 
+.footer .feedback-input:focus { border:2px solid darkred; }
+
+.footer textarea {
+  height: 100px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+.footer [type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:16px;
+  padding-top:8px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+.footer [type="submit"]:hover { background:#CC4949; }
 
 /*===============================FREE SHIPPING PAYMENTS RETURN SUPPORT============================*/
 

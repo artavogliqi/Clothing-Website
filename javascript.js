@@ -24,8 +24,16 @@ window.addEventListener('DOMContentLoaded', () => {
 
 // ================================= FOOTER =================================
 const footer = `
-  <p class="quote">"The funny thing about shopping online is that it does <br>give you a sense of fulfillment when your order arrives"</p>
-  <div>
+<div>
+<form>      
+<h3>Contact Us</h3>
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />
+  <input name="email" type="text" class="feedback-input" placeholder="Email" /><br>
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea><br>
+  <input type="submit" value="SUBMIT"/>
+</form>
+</div>
+<div>
     <ul>
       <li><h3>SHOP</h3></li>
       <li><a href="men.html">For Men</a></li>
