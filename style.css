@@ -423,19 +423,19 @@ body {
 	color:#9e9e9e;
 }
 
-/*===============================MEN'S WEAR============================*/
+/*===============================MEN'S CLOTHES============================*/
 
 .men-content{
     padding: 2cm;
-    
-
 }
+
 
 .produkti{
     width: 5cm;
     height: 7cm;
     padding: 3px;
     padding-top: 2.5cm;
+    text-align: center;
 }
   
 .produkti-text-img{
@@ -447,7 +447,6 @@ body {
 
 .buy-btn{
     background-color:#21afde;
-    
     width: 3cm;
     
 }
@@ -458,7 +457,6 @@ body {
 .s-mens-price{
 
     font-size: large;
-    
 }
 
 #menprotxt{
@@ -495,3 +493,87 @@ body {
     width: 30%;
     font-size: 12px;
  }
+
+ /*===============================WOMEN CLOTHES============================*/
+
+.women-content{
+    padding: 2cm;
+}
+
+.women-produkte{
+    width: 5cm;
+    height: 7cm;
+    padding: 3px;
+    padding-top: 2.5cm;
+    text-align: center;
+}
+  
+.women-text-img{
+    width: 5cm;
+    float: left;
+    text-align: center;
+    width: 25%; 
+} 
+
+.buy-btn{
+    background-color:#21afde;
+    width: 3cm;  
+}
+
+.buy-btn:hover{
+    background-color: blue;
+}
+.s-women-price{
+    font-size: large;
+}
+
+#womenprotxt{
+    font-size: large;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 270px; 
+    height: 1.2em; 
+    white-space: nowrap;
+}
+
+/*===============================KIDS CLOTHES============================*/
+
+.kids-content{
+    padding: 2cm;
+}
+
+.kids-produkte{
+    width: 5cm;
+    height: 7cm;
+    padding: 3px;
+    padding-top: 2.5cm;
+    text-align: center;
+}
+  
+.kids-text-img{
+    width: 5cm;
+    float: left;
+    text-align: center;
+    width: 25%; 
+} 
+
+.buy-btn{
+    background-color:#21afde;
+    width: 3cm;  
+}
+
+.buy-btn:hover{
+    background-color: blue;
+}
+.s-kids-price{
+    font-size: large;
+}
+
+#kidsprotxt{
+    font-size: large;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 270px; 
+    height: 1.2em; 
+    white-space: nowrap;
+}

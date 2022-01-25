@@ -37,8 +37,8 @@ const footer = `
     <ul>
       <li><h3>SHOP</h3></li>
       <li><a href="men.html">For Men</a></li>
-      <li><a href="">For Women</a></li>
-      <li><a href="">For Kids</a></li>
+      <li><a href="women.html">For Women</a></li>
+      <li><a href="kids.html">For Kids</a></li>
     </ul>
     <ul>
       <li><h3>COMPANY</h3></li>
@@ -160,6 +160,49 @@ var passwordRegex = /^[A-Za-z]+\d{8}/;
     }
     else {
       passwordMsg.innerText = "*Password must contain 8 characters!";
+      event.preventDefault();
+    }
+  }
+});
+
+
+//=================================LOGIN VALIDATION===============================
+
+var loginButton = document.getElementById("login_btn");
+
+var usernameMsg = document.getElementById("usernameMsg");
+var passwordMsg = document.getElementById("passwordMsg");
+
+var usernameRegex = /\w+[._-]?\w+/;
+var passwordRegex = /^[A-Z][a-z]{5}\d{3}[!*._-]{1}/;
+
+loginButton.addEventListener("click", function (event) {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+
+ 
+  if (username == "" || username == null) {
+    usernameMsg.innerText = "* Please fill the username field";
+    event.preventDefault();
+  } else {
+    if (usernameRegex.test(username)) {
+      usernameMsg.innerText = "";
+    } else {
+      usernameMsg.innerText =
+        "* Please fill the username field correctly (ex. john123, 123john, john_john, john.123 etc)";
+      event.preventDefault();
+    }
+  }
+
+  if (password == "" || password == null) {
+    passwordMsg.innerText = "* Please fill the password field";
+    event.preventDefault();
+  } else {
+    if (passwordRegex.test(password)) {
+      passwordMsg.innerText = "";
+    } else {
+      passwordMsg.innerText =
+        "* Your password must contain  1 uppercase, 5 lowercase letters, 3 digits and 1 symbol [!*-_.]";
       event.preventDefault();
     }
   }
