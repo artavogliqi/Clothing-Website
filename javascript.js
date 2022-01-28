@@ -170,38 +170,38 @@ var passwordRegex = /^[A-Za-z]+\d{8}/;
 
 var loginButton = document.getElementById("login_btn");
 
-var usernameMsg = document.getElementById("usernameMsg");
-var passwordMsg = document.getElementById("passwordMsg");
+var loginusernameMsg = document.getElementById("loginusernameMsg");
+var loginpasswordMsg = document.getElementById("loginpasswordMsg");
 
-var usernameRegex = /\w+[._-]?\w+/;
-var passwordRegex = /^[A-Z][a-z]{5}\d{3}[!*._-]{1}/;
+var loginusernameRegex = /\w+[._-]?\w+/;
+var loginpasswordRegex = /^[A-Z][a-z]{5}\d{3}[!*._-]{1}/;
 
 loginButton.addEventListener("click", function (event) {
-  var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
+  var loginusername = document.getElementById("loginusername").value;
+  var loginpassword = document.getElementById("loginpassword").value;
 
  
-  if (username == "" || username == null) {
-    usernameMsg.innerText = "* Please fill the username field";
+  if (loginusername == "" || loginusername == null) {
+    loginusernameMsg.innerText = "* Please fill the username field";
     event.preventDefault();
   } else {
-    if (usernameRegex.test(username)) {
-      usernameMsg.innerText = "";
+    if (loginusernameRegex.test(loginusername)) {
+      loginusernameMsg.innerText = "";
     } else {
-      usernameMsg.innerText =
+      loginusernameMsg.innerText =
         "* Please fill the username field correctly (ex. john123, 123john, john_john, john.123 etc)";
       event.preventDefault();
     }
   }
 
-  if (password == "" || password == null) {
-    passwordMsg.innerText = "* Please fill the password field";
+  if (loginpassword == "" || loginpassword == null) {
+    loginpasswordMsg.innerText = "* Please fill the password field";
     event.preventDefault();
   } else {
-    if (passwordRegex.test(password)) {
-      passwordMsg.innerText = "";
+    if (loginpasswordRegex.test(loginpassword)) {
+      loginpasswordMsg.innerText = "";
     } else {
-      passwordMsg.innerText =
+      loginpasswordMsg.innerText =
         "* Your password must contain  1 uppercase, 5 lowercase letters, 3 digits and 1 symbol [!*-_.]";
       event.preventDefault();
     }
