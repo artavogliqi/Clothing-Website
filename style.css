@@ -285,11 +285,11 @@ body {
  /*==============================================FOOTER===========================================*/
 .footer {
     background-color: #B9B9B9;
-    height: 190px;
+    height: 58vh;
     padding-top: 20px;
     clear: both;
     position: relative;
-    height: auto;
+    
     
     
 }

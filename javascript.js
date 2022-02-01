@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
 // ================================= FOOTER =================================
 const footer = `
 <div>
-<form>      
+<form action="feedback.php" method="POST">      
 <h3>Contact Us</h3>
   <input name="name" type="text" class="feedback-input" placeholder="Name" />
   <input name="email" type="text" class="feedback-input" placeholder="Email" /><br>
