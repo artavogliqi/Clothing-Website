@@ -1,0 +1,86 @@
+<?php
+
+
+include("auth.php");
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dandelion</title>     <link rel="icon" href="img/icon-d2.jpg">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+        
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <div class="header navbar navbar-inverse navbar-fixed-top" id="header" role="headerbar">
+           
+        </div>
+        <div class="mwk">
+            <a href="men.html"><div class="m">
+                <h3 class="men">MEN</h3>
+            </div></a>
+            <a href="women.html"><div class="w">
+                <h3 class="women">WOMEN</h3>
+            </div></a>
+            <a href="kids.html"><div class="k">
+                <h3 class="kids">KIDS</h3>
+            </div></a>
+        </div>
+
+<!---FEATURE SECTION-->
+            <div class="features-section">
+                <div class="container">
+                    <div class="features-inner">
+
+                        <div class="features-box">
+                            <div class="icon">
+                                <img src="img/freeshipping.jpg">
+                            </div>
+                            <h1>Free Shipping</h1>
+                            <p>Free shipping on all orders.</p>
+                        </div>
+                        <div class="features-box">
+                            <div class="icon">
+                                <img src="img/returnpolicy.jpg">
+                            </div>
+                            <h1>Return Policy</h1>
+                            <p>7 Days return policy.</p>
+                        </div>
+
+                        <div class="features-box">
+                            <div class="icon">
+                                <img src="img/support.jpg">
+                            </div>
+                            <h1>24/7 Support</h1>
+                            <p>You can call anytime for support.</p>
+                        </div>
+
+                        <div class="features-box">
+                            <div class="icon">
+                                <img src="img/securepay.jpg">
+                            </div>
+                            <h1>Secure Payments</h1>
+                            <p>Fast and secure payments.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        
+        <div class="footer" id="footer" role="footer">
+        </div>
+    </body>
+</html>
+
